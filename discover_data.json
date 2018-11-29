@@ -1,0 +1,105 @@
+{
+  "fields" : [ {
+    "field" : "extracted_metadata.title",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.entities.sentiment.score",
+    "type" : "double"
+  }, {
+    "field" : "enriched_text.sentiment.document.label",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.concepts.dbpedia_resource",
+    "type" : "string"
+  }, {
+    "field" : "extracted_metadata.file_type",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.concepts.text",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.concepts.relevance",
+    "type" : "double"
+  }, {
+    "field" : "enriched_text.categories.score",
+    "type" : "double"
+  }, {
+    "field" : "enriched_text.entities.sentiment.label",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.entities.relevance",
+    "type" : "double"
+  }, {
+    "field" : "text",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.entities.count",
+    "type" : "double"
+  }, {
+    "field" : "enriched_text.entities.sentiment",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_text.sentiment.document",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_text.entities.text",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.entities",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_text.entities.disambiguation.name",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.categories.label",
+    "type" : "string"
+  }, {
+    "field" : "id",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.concepts",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_text.entities.disambiguation",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_text.entities.type",
+    "type" : "string"
+  }, {
+    "field" : "extracted_metadata.sha1",
+    "type" : "string"
+  }, {
+    "field" : "extracted_metadata.author",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_text.categories",
+    "type" : "nested"
+  }, {
+    "field" : "extracted_metadata",
+    "type" : "nested"
+  }, {
+    "field" : "enriched_text.entities.disambiguation.subtype",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.sentiment",
+    "type" : "nested"
+  }, {
+    "field" : "html",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.entities.disambiguation.dbpedia_resource",
+    "type" : "string"
+  }, {
+    "field" : "enriched_text.sentiment.document.score",
+    "type" : "double"
+  }, {
+    "field" : "extracted_metadata.publicationdate",
+    "type" : "date"
+  }, {
+    "field" : "extracted_metadata.filename",
+    "type" : "string"
+  } ]
+}

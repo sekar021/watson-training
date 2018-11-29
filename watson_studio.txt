@@ -1,0 +1,36 @@
+Watson studio
+unstructure data to structure data
+
+-Datapoints
+-TypeSystem
+
+Type system
+Corpus
+Ground truth
+Machine-learning model
+Machine-learning model evaluation results
+
+customizing unstructure  data using Watson studio
+Corpus - data storage like documents tables unstructure
+Ground truth - source of truth
+Dictionaries - create structure truth using corpus data
+
+Corpus-->type system-->ground truth-->create Model-->deploy discovery 
+
+The dog(PET) ran(Event-Move) up the street (Location)
+
+using above statement create model and analysis another statement
+the hamstring(PET) fall(Event-Move) into bucket  (Location)
+
+entities and relation for knowledge studio 
+
+
+Integrating your custom model with the Discovery tooling
+You can integrate a Knowledge Studio custom model into the Entity Extraction or Relation Extraction enrichments with the Discovery tooling.
+
+Get the Model ID of your Knowledge Studio model.
+In the Discovery tooling, click the Manage Data icon on the upper left to open the Manage data screen, then create or open a collection. Note: If you choose an existing collection, it should be empty. If not, you should reingest those documents after creating your new configuration file.
+In the Configuration section of the Manage Data screen for your collection, click Switch, then Create a New Configuration. Name the configuration.
+Click Add enrichments and select either the Entity Extraction or Relation Extraction enrichments.
+Enter the Model ID in the Custom Model ID box of the selected enrichment. The custom IBM Watson™ Knowledge Studio model will override the default for that enrichment.
+Click Apply, then Done.
